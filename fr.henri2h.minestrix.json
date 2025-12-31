@@ -1,7 +1,7 @@
 {
     "app-id": "fr.henri2h.minestrix",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "49",
     "sdk": "org.gnome.Sdk",
     "command": "minestrix",
     "separate-locales": false,
@@ -37,6 +37,9 @@
         {
             "name": "olm",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
+            ],
             "sources": [
                 {
                     "type": "git",

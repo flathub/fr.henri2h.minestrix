@@ -11,16 +11,24 @@
     <control>touch</control>
   </recommends>
   <developer_name>fr.henri2h</developer_name>
-  <url type="homepage">https://minestrix.henri2h.fr</url>
+  <url type="homepage">https://gitlab.com/minestrix/minestrix-flutter</url>
+  <url type="bugtracker">https://gitlab.com/minestrix/minestrix-flutter/issues</url>
+  <url type="vcs-browser">https://gitlab.com/minestrix/minestrix-flutter</url>
   <description>
     <p>MinesTRIX is a privacy focused social media based on Matrix.</p>
   </description>
 
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image type="source">https://gitlab.com/minestrix/minestrix-flutter/-/raw/main/readmeassets/feed_page.png</image>
+    </screenshot>
+    <screenshot>
       <image type="source">https://gitlab.com/minestrix/minestrix-flutter/-/raw/main/readmeassets/chats_page.png</image>
+    </screenshot>
+    <screenshot>
       <image type="source">https://gitlab.com/minestrix/minestrix-flutter/-/raw/main/readmeassets/chat_page.png</image>
+    </screenshot>
+    <screenshot>
       <image type="source">https://gitlab.com/minestrix/minestrix-flutter/-/raw/main/readmeassets/account_page.png</image>
     </screenshot>
   </screenshots>
